@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>
+      <form action="">
+          <h1>Payment form</h1>
+          <h2>To kunal Sabadra</h2>
+          <p>required Fileds are followed by *</p>
+          <h3>Contact information</h3>
+          <p>Name:* <input type="text" name="name" required></p>
+        <fieldset>
+              <legend>Gender</legend>
+          <p>
+              Male  <input type="radio" name="gender" required id="male">
+              Female  <input type="radio" name="gender" required id="female"> 
+            </p>
+            </fieldset>
+<p>Address: <textarea name="address" required="address" cols="50" rows="5"> </textarea> required </p>
+<p>Email: <input type="email" name="email"required id="email"></p>
+<p>Pincode: <input type="number" name="pincode" required id="pincode"></p>
+<h2>Payment Information</h2>
+<p>Card type: 
+    <select name="card type" id="card type">
+        <option value="">----Select a card type---</option>
+        <option value="Visa">Visa</option>
+        <option value="Master card">Master card</option>
+        <option value="Rupay">Rupay</option>
+
+    </select>
+
+</p>
+<p>
+    Card Number <input type="number" name="card number" id="card number">
+</p>
+<p>
+    Expiration Date: <input type="date" name="exp_date" id="exp_daye">
+</p>
+<p>CVV <input type="password" name="cvv" id="cvv"></p>
+<p>Submit: <input type="submit" value="submit"></p>
+      </form>
+</body>
+</html>

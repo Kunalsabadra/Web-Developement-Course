@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .box{
+            font-size: 80px;
+            text-align: center;
+            background-color: chartreuse;
+            color: black;
+            display:none;
+        }
+        @media (max-width:300px) {
+            #box1{
+                display:block;
+                background-color: cornsilk;
+            }
+            
+        }
+        @media(min-width: 300px) and (max-width:500px)  {
+            #box2{
+                display:block;
+                background-color: darkkhaki;
+            }
+            
+        }
+        @media(min-width: 500px) and (max-width:800px)  {
+            #box3{
+                display:block;
+                background-color: rgb(201, 35, 35);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">I am kunal</div>
+    <div class="box" id="box2">I am Computer</div>
+    <div class="box" id="box3">I am good boy</div>
+    <div class="box" id="box4">I am Rahata</div>
+
+</body>
+</html>

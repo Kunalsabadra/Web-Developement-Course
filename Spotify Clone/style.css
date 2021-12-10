@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Varela+Round&display=swap');
+
+body{
+
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Inter', sans-serif;
+    
+
+
+}
+.Brand img{
+    height:50px;
+    width:75px;
+    margin: 5px,5px;
+    padding: 0px;
+}
+
+.Brand{
+   display: flex; 
+   align-items: center;
+   color: aliceblue;
+   font-size: 20px;
+   font-weight: bolder;
+}
+.kunal{
+    color:beige;
+    font-size:10px;
+    padding:50px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height:75px;
+    background-color: black;
+    
+
+
+}
+nav li{
+    color: chartreuse;
+    margin:5px, 10px;
+    padding:20px;
+}
+.container{
+    min-height: 95vh; 
+    /* Due to min height bottom line will go to bottom , 75vh means 75% height */
+
+
+}
+.Bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    color:white;
+    
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#myProgressBar{
+    width:80vw;
+    color: blue;
+    /* vw: means width in percentage */
+    
+
+}

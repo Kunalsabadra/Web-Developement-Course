@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+     <!--Various Ways to Achieve Responsive Design  -->
+    <!-- 1. Setting up the viewport -->
+    <!-- 2. USE max width/ max height -->
+    <!-- 3. Using CSS Media Queries -->
+    <!-- 4. Using rem/vh/vw units over pixels -->
+    <style>
+        html{
+           font-size: 25px;
+        }
+        .container{
+            /* width: 1230px; */
+            width: 100vw;
+            font-size: 10px;
+            /* height:200px; */
+            height:100vh;
+            border: 2px solid black;
+        }
+         h1{
+              text-align: center;
+         }
+         #first{
+             /* font-size: 3em;
+             padding: 3em; */
+         }
+         #Second{
+            /* font-size: 3rem;
+             padding: 3rem; */
+         }
+    </style>
+   
+</head>
+<body>
+    <div class= "container">
+        <h1 id = "first">This is first  heading</h1>
+        <h1 id = "Second">This is  Second Heading</h1>
+        <h1 id = "Third">This is  third heading</h1>
+    </div>
+</body>
+</html>

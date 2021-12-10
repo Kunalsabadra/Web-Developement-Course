@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before And After Pseudo Selectors</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        color:white;
+    }
+    header::before{
+        content:"";
+        background: url("https://www.thefamouspeople.com/profiles/images/rohit-sharma-4.jpg") no-repeat center center/cover;
+        position: absolute;
+        top:0;
+        left: 0;
+
+        width:100%;
+        height:100%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+    
+    .navigation{
+        font-size: 20px;
+        display: flex;
+        list-style: none;
+    }
+    section{
+        /* border:2px solid chartreuse; */
+        margin: 3px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:500px;
+    }
+    li:hover{
+        background-color: bisque;
+    }
+    li{
+        /* list-style: none; */
+        padding: 34px  24px;
+    }
+    h3{
+        padding: 30px;
+        text-align: center;
+        font-size: 40px;
+    }
+    section::before{
+       
+        content:"This is a content";
+        text-align: center;
+        font-size:34px;
+    }
+    p{
+        font-size: 25px;
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Contact</li>
+                <li class="item">Add to cart</li>
+            </ul>
+         </nav>
+         <section>
+             <h3>
+                 Welcome to Kunals store
+             </h3>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe voluptates eveniet incidunt, 
+                 deserunt vitae odit quidem explicabo
+                  accusantium mollitia eius fuga consequuntur provident temporibus nostrum alias error. 
+                  Quia, ab fugiat fugit dignissimos labore soluta.</p>
+         </section>
+    </header>
+</body>
+</html>

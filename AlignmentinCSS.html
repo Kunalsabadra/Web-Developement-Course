@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        /* "*" is basically used to add changes to all */
+
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Lobster', cursive;
+            
+        }
+        .container{
+            width: 1000px;
+            border: 3px solid purple;
+            margin: auto;
+
+        }
+        .item{
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color:rgb(248, 238, 238);
+            float: left;
+           
+        }
+        #fruit{
+                font-weight: bold;
+                width: 48%
+                   
+        }
+        #computer{
+            width:48%;
+            float:left;
+        }
+        #stationary{
+            width: 100%
+            
+        }
+        p, h1{
+             /* text-align: right; */
+            text-align: left; 
+            /* text-align: justify; */
+        }
+        h1{
+            margin: auto;
+            width: 455px ;
+        }
+        /* clear left and clear right or clear both is used to remove the collison of blox */
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        Welcome to my store
+    </h1>
+    <div class= "container">
+        <div id= "fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class= "para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, in facere iste, eveniet dolore
+                 similique debitis sequi explicabo quo repellendus ex quisquam laudantium quos architecto esse voluptas rem voluptatem odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quidem reprehenderit quaerat consequuntur in 
+                 molestias repellendus. Vitae fuga molestiae unde blanditiis, modi tenetur vero molestias neque veniam ipsam expedita doloremque. </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laborum sint eaque a placeat quia
+                 porro quam assumenda ex pariatur? Modi asperiores labore laudantium ratione,
+                  quod perspiciatis ea eligendi quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam error saepe perferendis quae molestias
+                  numquam aspernatur laborum mollitia. Atque dolorem repellendus amet consequuntur. Sed odit voluptas repellendus voluptatum accusantium.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationary" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore provident quam aspernatur architecto 
+                ad libero odio dignissimos nam earum natus reprehenderit eius, .</p>
+        </div>
+
+    </div>
+</body>
+</html>
+

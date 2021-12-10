@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+</head>
+<style>
+    h1{
+        background-color: deepskyblue;
+        font-weight: bold;
+        text-align: center;
+    }
+/* For all the p inside the div then this CSS wil be applied */
+    div p{
+        color: rgb(70, 13, 224);
+        background-color: cornsilk;
+        font-weight: bold;
+    }
+    /* If p is right inside the div then this CSS will be applied */
+    div > p{
+        background-color: yellow;
+    }
+    /* If p is right after div then this CSS will be applied */
+    div + p{
+        background-color: red;
+    }
+</style>
+<body>
+    <h1>This is more on Selectors</h1>
+    <div class = "container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is another paragraph in li</p></li>
+                
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is one more paragraph</p>
+</body>
+</html>
